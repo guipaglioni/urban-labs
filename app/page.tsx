@@ -317,7 +317,7 @@ export default function Home() {
               à realidade do seu município.
             </p>
             <a
-              href="mailto:contato@urbanlabs.com.br?subject=Quero%20conhecer%20o%20BigMap"
+              href="mailto:guipaglioni@gmail.com?subject=Quero%20conhecer%20o%20BigMap"
               className="btn btn-primary"
             >
               Agendar uma conversa
