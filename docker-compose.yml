@@ -17,3 +17,13 @@ services:
       - no-new-privileges:true
     pids_limit: 200
     mem_limit: 512m
+    networks:
+      - site
+
+networks:
+  site:
+    driver: bridge
+    driver_opts:
+      # Nome fixo para o firewall (DOCKER-USER) bloquear saída deste container:
+      # o site não precisa acessar a internet.
+      com.docker.network.bridge.name: br-urbanlabs
